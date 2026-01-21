@@ -1,0 +1,34 @@
+[
+    {
+        "id": "prod-000001",
+        "name": "Gas 45 kg",
+        "price": 67500,
+        "description": "Cilindro de gas licuado 45 kg, uso calefacción y agua caliente",
+        "image": "/img/productos/cilindro_45kg.png",
+        "stock": 10
+    },
+    {
+        "id": "prod-000002",
+        "name": "Gas 15 kg",
+        "price": 25100,
+        "description": "Cilindro de gas licuado 15 kg, uso cocina, calefon y estufas",
+        "image": "/img/productos/cilindro_15kg.png",
+        "stock": 0
+    },
+    {
+        "id": "prod-000003",
+        "name": "Gas 11 kg",
+        "price": 18850,
+        "description": "Cilindro de gas licuado 11 kg, ideal para estufas y parrillas",
+        "image": "/img/productos/cilindro_11kg.png",
+        "stock": 25
+    },
+    {
+        "id": "prod-000004",
+        "name": "Gas 5 kg",
+        "price": 12450,
+        "description": "Cilindro de gas licuado 5 kg, camping y parrillas",
+        "image": "/img/productos/cilindro_5kg.png",
+        "stock": 15
+    }
+]

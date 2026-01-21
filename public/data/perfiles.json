@@ -1,0 +1,26 @@
+[
+    {
+        "rut": "11.111.111-1",
+        "pass": "cliente123",
+        "name": "Juan Pérez",
+        "role": "cliente",
+        "email": "cliente@concegas.cl",
+        "telefono": "912345678"
+    },
+    {
+        "rut": "22.222.222-2",
+        "pass": "admin123",
+        "name": "Administrador",
+        "role": "admin",
+        "email": "admin@concegas.cl",
+        "telefono": "987654321"
+    },
+    {
+        "rut": "33.333.333-3",
+        "pass": "repartidor123",
+        "name": "Pedro Repartidor",
+        "role": "repartidor",
+        "email": "repartidor@concegas.cl",
+        "telefono": "955555555"
+    }
+]

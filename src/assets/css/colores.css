@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #FF6B00;
+  /* Orange - Gas/Energy */
+  --secondary-color: #003366;
+  /* Navy Blue - Trust/Concepcion */
+  --accent-color: #E65C00;
+  /* Darker Orange for hover */
+  --bg-body: #E6F3FF;
+  /* Light Sky Blue (Celeste clarito) */
+  --bg-card: #ffffff;
+  --text-main: #333333;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar overrides */
+.navbar-dark.bg-dark {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  background-color: var(--bg-card);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  /* Light shadow for all cards */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* Forms Container Styling - Login & Registro */
+.login-container,
+.registro-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  border-top: 5px solid var(--secondary-color);
+}
+
+/* Table overrides for Light Theme */
+.table-custom-header thead {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.table-custom-header th {
+  font-weight: 600;
+}
+
+/* Text adjustments */
+.text-primary-custom {
+  color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color) !important;
+}
+
+/* SIDEBAR STYLES */
+.sidebar {
+  width: 250px;
+  min-height: calc(100vh - 56px);
+  /* Full height minus navbar */
+  background-color: var(--secondary-color);
+  /* Navy Blue - Brand */
+  color: white;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  /* Prevent text wrapping when shrinking */
+}
+
+/* SIDEBAR OCULTA */
+.sidebar.hidden {
+  margin-left: -250px;
+}
+
+/* BOTÓN FLOTANTE */
+.toggle-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+  margin-left: -10px;
+  /* Adjust to overlap border or gap */
+  border-radius: 0 5px 5px 0;
+}
+
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.toggle-btn:hover {
+  background-color: var(--accent-color);
+}
